@@ -3,7 +3,7 @@
   (general
     (links 172)
     (no_connects 0)
-    (area 39.175144 84.8 77.918857 110.905)
+    (area 45.663181 84.883147 70.163247 109.362848)
     (thickness 0.6)
     (drawings 508)
     (tracks 542)
@@ -2328,7 +2328,7 @@
   )
 
   (gr_circle (center 53.84 106.79) (end 54.9 107.991) (layer Dwgs.User) (width 0.2))
-  (gr_text "rev.1 iss3" (at 58.166 87.884) (layer F.SilkS)
+  (gr_text "rev.1 iss4" (at 58.166 87.884) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text charon (at 58.8 86) (layer F.SilkS)
@@ -4477,6 +4477,38 @@
     (polygon
       (pts
         (xy 57.26 106.2) (xy 57.26 109) (xy 63.63 108.99) (xy 63.63 106.19)
+      )
+    )
+  )
+  (zone (net 2) (net_name GND) (layer F.Mask) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.2))
+    (min_thickness 0.2)
+    (fill yes (arc_segments 16) (thermal_gap 0.21) (thermal_bridge_width 0.21))
+    (polygon
+      (pts
+        (xy 59.4 102) (xy 60.3 102) (xy 60.3 103.5) (xy 60.9 104.1) (xy 60.1 104.8)
+        (xy 59.4 104.1)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 60.2 103.5) (xy 60.207879 103.538906) (xy 60.229289 103.570711) (xy 60.753707 104.095129) (xy 60.104557 104.663135)
+        (xy 59.5 104.058578) (xy 59.5 102.1) (xy 60.2 102.1)
+      )
+    )
+  )
+  (zone (net 2) (net_name GND) (layer F.Mask) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.2))
+    (min_thickness 0.2)
+    (fill yes (arc_segments 16) (thermal_gap 0.21) (thermal_bridge_width 0.21))
+    (polygon
+      (pts
+        (xy 62.7 104.4) (xy 62.9 104.4) (xy 64.5 106) (xy 63.85 106.7) (xy 62.65 105.6)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 64.361149 106.002571) (xy 63.844329 106.559146) (xy 62.751849 105.557705) (xy 62.79592 104.5) (xy 62.858578 104.5)
       )
     )
   )
