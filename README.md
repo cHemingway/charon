@@ -4,7 +4,11 @@ No hardware currently, schematic only.
 
 PSoC4 used as it is only BLE MCU I could find with Segment LCD support.
 
+
+# Credits
 Major thanks to Carrot Industries for reverse engineering the display and mechanicals, this project would not be possible without this.
+
+BME680 3D model from [3D Content Central](http://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=806790)
 
 # Changes
 - MSP430 replaced with Cypress PsOC4208 BLE MCU

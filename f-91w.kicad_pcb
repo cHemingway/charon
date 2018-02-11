@@ -39,7 +39,7 @@
   )
 
   (setup
-    (last_trace_width 0.127)
+    (last_trace_width 0.2)
     (user_trace_width 0.2)
     (user_trace_width 0.3)
     (trace_clearance 0.127)
@@ -247,6 +247,11 @@
       (net 2 GND))
     (pad 3 smd rect (at 0.65 0 180) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 31 /BUZ))
+    (model TO_SOT_Packages_SMD.3dshapes/SOT-543.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistors_SMD:R_0201_NoSilk (layer F.Cu) (tedit 58E0A804) (tstamp 5A6DEA19)
@@ -1045,6 +1050,11 @@
       (net 2 GND) (solder_mask_margin 0.1))
     (pad 8 smd rect (at -1.2 -1.2 270) (size 0.4 0.4) (layers F.Cu F.Paste F.Mask)
       (net 34 VCC) (solder_mask_margin 0.1))
+    (model "C:/Users/chris/Dropbox/Projects/Casio F-91BLE/hw_repo/mech/BME680.WRL"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Crystals:Crystal_SMD_2016-4pin_2.0x1.6mm (layer F.Cu) (tedit 58CD2E9C) (tstamp 5A6DEA9D)
@@ -1085,7 +1095,7 @@
       (net 46 "Net-(U1-Pad17)"))
     (pad 4 smd rect (at -0.7 -0.55 90) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Crystals.3dshapes/Crystal_SMD_2016-4pin_2.0x1.6mm.wrl
+    (model Crystals.3dshapes/Crystal_SMD_2520-4pin_2.5x2.0mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1491,6 +1501,11 @@
       (net 43 "Net-(C5-Pad2)") (solder_mask_margin 0.1))
     (pad 57 smd rect (at 0 0 90) (size 5.6 5.6) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
+    (model Housings_DFN_QFN.3dshapes/QFN-56-1EP_7x7mm_Pitch0.4mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module f-91w:STITCHING_VIA_0.2mm (layer F.Cu) (tedit 5A8045C7) (tstamp 5A7F53CE)
@@ -2320,11 +2335,6 @@
       (net 1 "Net-(C1-Pad1)") (solder_mask_margin 0.07))
     (pad 2 smd rect (at 0.725 0) (size 0.75 1.4) (layers F.Cu F.Paste F.Mask)
       (net 40 "Net-(C2-Pad1)") (solder_mask_margin 0.07))
-    (model ${KISYS3DMOD}/Crystals.3dshapes/Crystal_SMD_TXC_9HT11-2pin_2.0x1.2mm.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (gr_circle (center 53.84 106.79) (end 54.9 107.991) (layer Dwgs.User) (width 0.2))
