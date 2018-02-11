@@ -1,6 +1,6 @@
 Remake of [carrotIndustries Pluto](https://github.com/carrotIndustries/pluto) watch (see OLD_README.md) to use Cypress PSoC4208 BLE microcontroller
 
-No hardware currently, schematic only.
+Not yet manufactured, use at your own risk
 
 PSoC4 used as it is only BLE MCU I could find with Segment LCD support.
 
@@ -14,8 +14,9 @@ BME680 3D model from [3D Content Central](http://www.3dcontentcentral.com/downlo
 - MSP430 replaced with Cypress PsOC4208 BLE MCU
 - Magentometer is replaced with Bosch [BME680](https://www.bosch-sensortec.com/bst/products/all_products/bme680) Temp/Pressure/Humidity/Gas sensor
 - IR reciever removed
+- LED polarity fixed to save GPIO
 
 # TODO
-- Antenna selection
-- Routing
-- Manufacture and bring up
+- Manufacture
+- Bring up
+- Port existing Pluto firmware
