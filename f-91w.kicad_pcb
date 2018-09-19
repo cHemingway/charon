@@ -6,7 +6,7 @@
     (tracks 549)
     (zones 0)
     (modules 116)
-    (nets 51)
+    (nets 52)
   )
 
   (page A4)
@@ -145,6 +145,7 @@
   (net 48 /SWCLK)
   (net 49 /SWDIO)
   (net 50 //XRES)
+  (net 51 "Net-(U1-Pad45)")
 
   (net_class Default "This is the default net class."
     (clearance 0.127)
@@ -198,6 +199,7 @@
     (add_net "Net-(Q1-Pad1)")
     (add_net "Net-(U1-Pad16)")
     (add_net "Net-(U1-Pad17)")
+    (add_net "Net-(U1-Pad45)")
   )
 
   (net_class ANT ""
@@ -280,7 +282,7 @@
     (fp_text reference Q1 (at -1.6 0) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     )
-    (fp_text value BC846 (at 1.5 -1.8 270) (layer F.SilkS) hide
+    (fp_text value BC847BTT1 (at 1.5 -1.8 270) (layer F.SilkS) hide
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     )
     (fp_line (start 0.5 0.9) (end -0.5 0.9) (layer F.SilkS) (width 0.2032))
@@ -2352,7 +2354,7 @@
     (pad 44 smd rect (at 2.2 -3.385 90) (size 0.22 0.76) (layers F.Cu F.Paste F.Mask)
       (net 9 /LCD_COM3) (solder_mask_margin 0.1))
     (pad 45 smd rect (at 1.8 -3.385 90) (size 0.22 0.76) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.1))
+      (net 51 "Net-(U1-Pad45)") (solder_mask_margin 0.1))
     (pad 46 smd rect (at 1.4 -3.385 90) (size 0.22 0.76) (layers F.Cu F.Paste F.Mask)
       (net 34 VCC) (solder_mask_margin 0.1))
     (pad 47 smd rect (at 1 -3.385 90) (size 0.22 0.76) (layers F.Cu F.Paste F.Mask)
