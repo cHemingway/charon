@@ -47,7 +47,7 @@
     (edge_width 0.2)
     (via_size 0.454)
     (via_drill 0.2)
-    (via_min_size 0.454)
+    (via_min_size 0.2)
     (via_min_drill 0.2)
     (uvia_size 0.3)
     (uvia_drill 0.1)
